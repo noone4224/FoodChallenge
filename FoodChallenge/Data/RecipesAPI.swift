@@ -9,11 +9,11 @@ import Foundation
 
 class FoodManager {
     static let shared = FoodManager()
-
+    
     private init() {}
-
+    
     private let networkManager = NetworkManager.shared
-
+    
     func getFoods(completion: @escaping NetworkManager.CompletionHandler<FoodsResponseModel>) {
         networkManager.makeRequest(endpoint: .getFoods, responseType: FoodsResponseModel.self, completion: completion)
     }
@@ -21,11 +21,11 @@ class FoodManager {
 
 class RecipeManager {
     static let shared = RecipeManager()
-
+    
     private init() {}
-
+    
     private let networkManager = NetworkManager.shared
-
+    
     func getRecipe(id: Int, completion: @escaping NetworkManager.CompletionHandler<RecipeResponseModel>) {
         let endpoint = Endpoints.Endpoint.getRecipe.rawValue + "?id=\(id)"
         networkManager.makeRequest(endpoint: Endpoints.Endpoint(rawValue: endpoint) ?? .getRecipe, responseType: RecipeResponseModel.self, completion: completion)

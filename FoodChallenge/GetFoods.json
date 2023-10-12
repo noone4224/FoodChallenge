@@ -1,64 +1,64 @@
 {
-  "foods": [
-    {
-      "id": 1,
-      "name": "Pizza",
-      "ingredients": ["Dough", "Tomato Sauce", "Cheese", "Pepperoni"],
-      "urlImage": "https://cdn-icons-png.flaticon.com/128/3578/3578614.png"
-    },
-    {
-      "id": 2,
-      "name": "Burger",
-      "ingredients": ["Beef Patty", "Lettuce", "Tomato", "Onion", "Cheese", "Ketchup", "Mayonnaise"],
-      "urlImage": "https://cdn-icons-png.flaticon.com/128/953/953119.png"
-    },
-    {
-      "id": 3,
-      "name": "Sushi",
-      "ingredients": ["Rice", "Fish (Salmon, Tuna, etc.)", "Nori", "Soy Sauce", "Wasabi", "Pickled Ginger"],
-      "urlImage": "https://cdn-icons-png.flaticon.com/128/1539/1539414.png"
-    },
-    {
-      "id": 4,
-      "name": "Pasta",
-      "ingredients": ["Pasta", "Tomato Sauce", "Basil", "Parmesan Cheese"],
-      "urlImage": "https://cdn-icons-png.flaticon.com/128/2515/2515207.png"
-    },
-    {
-      "id": 5,
-      "name": "Salad",
-      "ingredients": ["Lettuce", "Tomato", "Cucumber", "Onion", "Dressing"],
-      "urlImage": "https://cdn-icons-png.flaticon.com/128/1057/1057357.png"
-    },
-    {
-      "id": 6,
-      "name": "Steak",
-      "ingredients": ["Steak", "Salt", "Pepper", "Butter", "Garlic"],
-      "urlImage": "https://cdn-icons-png.flaticon.com/128/6778/6778488.png"
-    },
-    {
-      "id": 7,
-      "name": "Ice Cream",
-      "ingredients": ["Milk", "Sugar", "Vanilla", "Chocolate Chips"],
-      "urlImage": "https://cdn-icons-png.flaticon.com/128/11145/11145851.png"
-    },
-    {
-      "id": 8,
-      "name": "Tacos",
-      "ingredients": ["Tortillas", "Ground Beef", "Lettuce", "Tomato", "Cheese", "Salsa"],
-      "urlImage": "https://cdn-icons-png.flaticon.com/128/2515/2515225.png"
-    },
-    {
-      "id": 9,
-      "name": "Fried Chicken",
-      "ingredients": ["Chicken Pieces", "Flour", "Eggs", "Oil", "Salt", "Pepper"],
-      "urlImage": "https://cdn-icons-png.flaticon.com/128/1276/1276201.png"
-    },
-    {
-      "id": 10,
-      "name": "Sample Data Pancakes",
-      "ingredients": ["Flour", "Milk", "Eggs", "Baking Powder", "Butter", "Maple Syrup"],
-      "urlImage": "https://cdn-icons-png.flaticon.com/128/3173/3173426.png"
-    }
-  ]
+    "foods": [
+        {
+            "id": 1,
+            "name": "Pizza",
+            "ingredients": ["Dough", "Tomato Sauce", "Cheese", "Pepperoni"],
+            "urlImage": "https://cdn-icons-png.flaticon.com/128/3578/3578614.png"
+        },
+        {
+            "id": 2,
+            "name": "Burger",
+            "ingredients": ["Beef Patty", "Lettuce", "Tomato", "Onion", "Cheese", "Ketchup", "Mayonnaise"],
+            "urlImage": "https://cdn-icons-png.flaticon.com/128/953/953119.png"
+        },
+        {
+            "id": 3,
+            "name": "Sushi",
+            "ingredients": ["Rice", "Fish (Salmon, Tuna, etc.)", "Nori", "Soy Sauce", "Wasabi", "Pickled Ginger"],
+            "urlImage": "https://cdn-icons-png.flaticon.com/128/1539/1539414.png"
+        },
+        {
+            "id": 4,
+            "name": "Pasta",
+            "ingredients": ["Pasta", "Tomato Sauce", "Basil", "Parmesan Cheese"],
+            "urlImage": "https://cdn-icons-png.flaticon.com/128/2515/2515207.png"
+        },
+        {
+            "id": 5,
+            "name": "Salad",
+            "ingredients": ["Lettuce", "Tomato", "Cucumber", "Onion", "Dressing"],
+            "urlImage": "https://cdn-icons-png.flaticon.com/128/1057/1057357.png"
+        },
+        {
+            "id": 6,
+            "name": "Steak",
+            "ingredients": ["Steak", "Salt", "Pepper", "Butter", "Garlic"],
+            "urlImage": "https://cdn-icons-png.flaticon.com/128/6778/6778488.png"
+        },
+        {
+            "id": 7,
+            "name": "Ice Cream",
+            "ingredients": ["Milk", "Sugar", "Vanilla", "Chocolate Chips"],
+            "urlImage": "https://cdn-icons-png.flaticon.com/128/11145/11145851.png"
+        },
+        {
+            "id": 8,
+            "name": "Tacos",
+            "ingredients": ["Tortillas", "Ground Beef", "Lettuce", "Tomato", "Cheese", "Salsa"],
+            "urlImage": "https://cdn-icons-png.flaticon.com/128/2515/2515225.png"
+        },
+        {
+            "id": 9,
+            "name": "Fried Chicken",
+            "ingredients": ["Chicken Pieces", "Flour", "Eggs", "Oil", "Salt", "Pepper"],
+            "urlImage": "https://cdn-icons-png.flaticon.com/128/1276/1276201.png"
+        },
+        {
+            "id": 10,
+            "name": "Sample Data Pancakes",
+            "ingredients": ["Flour", "Milk", "Eggs", "Baking Powder", "Butter", "Maple Syrup"],
+            "urlImage": "https://cdn-icons-png.flaticon.com/128/3173/3173426.png"
+        }
+    ]
 }

@@ -14,7 +14,7 @@ public struct HomeView: View {
     
     @State private var foods: [Food?] = []
     @State private var searchText = ""
-    private let getFoodsUseCase = GetFoodsUseCase() 
+    private let getFoodsUseCase = GetFoodsUseCase()
     
     public var body: some View {
         NavigationView {

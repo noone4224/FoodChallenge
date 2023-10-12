@@ -10,17 +10,18 @@ import Foundation
 class NetworkManager {
     
     static let shared = NetworkManager()
+    
+    private init() {}
+    
+    typealias CompletionHandler<T> = (Result<T, Error>) -> Void
+    
+    // Function for making a generic request
+    public func makeRequest<T: Codable>(endpoint: Endpoints.Endpoint, responseType: T.Type, completion: @escaping CompletionHandler<T>) {
         
-        private init() {}
-        
-        typealias CompletionHandler<T> = (Result<T, Error>) -> Void
-        
-        // Function for making a generic request
-        public func makeRequest<T: Codable>(endpoint: Endpoints.Endpoint, responseType: T.Type, completion: @escaping CompletionHandler<T>) {
-            guard let url = URL(string: APIConstants.baseURL + endpoint.rawValue) else {
-                completion(.failure(NSError(domain: "Invalid URL", code: -1, userInfo: nil)))
-                return
-            }
+        guard let url = URL(string: APIConstants.baseURL + endpoint.rawValue) else {
+            completion(.failure(NSError(domain: "Invalid URL", code: -1, userInfo: nil)))
+            return
+        }
         
         URLSession.shared.dataTask(with: url) { data, response, error in
             guard let data = data, error == nil else {
@@ -39,7 +40,6 @@ class NetworkManager {
                     } catch {
                         completion(.failure(error))
                     }
-                    return
                 }  else {
                     completion(.failure(error))
                 }

@@ -10,10 +10,10 @@ import SwiftUI
 
 struct RecipeView: View {
     let id: Int
-
+    
     @State private var recipe: RecipeResponseModel? = nil
     private let getRecipeUseCase = GetRecipeUseCase()
-
+    
     var body: some View {
         VStack(spacing: 10) {
             AsyncImage(url: URL(string: recipe?.urlImage ?? ""), scale: 3)

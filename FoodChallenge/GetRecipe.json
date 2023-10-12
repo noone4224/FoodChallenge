@@ -1,37 +1,37 @@
 {
-  "name": "Pizza",
-  "urlImage": "https://www.themealdb.com/images/media/meals/va668f1683209318.jpg",
-  "ingredients": [
-    {
-      "name": "Dough",
-      "measure": "1 packet"
+    "name": "Pizza",
+    "urlImage": "https://www.themealdb.com/images/media/meals/va668f1683209318.jpg",
+    "ingredients": [
+        {
+            "name": "Dough",
+            "measure": "1 packet"
+        },
+        {
+            "name": "Tomato Sauce",
+            "measure": "1 cup"
+        },
+        {
+            "name": "Cheese",
+            "measure": "200 grams"
+        },
+        {
+            "name": "Pepperoni",
+            "measure": "100 grams"
+        }
+    ],
+    "location": {
+        "name": "Grocery Store",
+        "address": "123 Main St, City, State",
+        "latitude": "37.7749",
+        "longitude": "-122.4194"
     },
-    {
-      "name": "Tomato Sauce",
-      "measure": "1 cup"
-    },
-    {
-      "name": "Cheese",
-      "measure": "200 grams"
-    },
-    {
-      "name": "Pepperoni",
-      "measure": "100 grams"
-    }
-  ],
-  "location": {
-    "name": "Grocery Store",
-    "address": "123 Main St, City, State",
-    "latitude": "37.7749",
-    "longitude": "-122.4194"
-  },
-  "procedure": [
-    "1. Preheat the oven to 475°F (245°C).",
-    "2. Roll out the dough into a round shape.",
-    "3. Spread the tomato sauce on the dough.",
-    "4. Sprinkle cheese over the sauce.",
-    "5. Add the pepperoni slices on top.",
-    "6. Bake in the preheated oven for 12-15 minutes or until golden brown.",
-    "7. Sample Data Recipe"
-  ]
+    "procedure": [
+        "1. Preheat the oven to 475°F (245°C).",
+        "2. Roll out the dough into a round shape.",
+        "3. Spread the tomato sauce on the dough.",
+        "4. Sprinkle cheese over the sauce.",
+        "5. Add the pepperoni slices on top.",
+        "6. Bake in the preheated oven for 12-15 minutes or until golden brown.",
+        "7. Sample Data Recipe"
+    ]
 }
