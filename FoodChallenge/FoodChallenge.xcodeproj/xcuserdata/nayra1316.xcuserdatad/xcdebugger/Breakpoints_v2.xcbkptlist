@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "0F0FE9FB-446E-4AF2-8ADD-B5604D71FDEA"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EBEE32E3-B7EF-4648-9B29-21B7DD4199C8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Data/Network.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "makeRequest(endpoint:responseType:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "EBEE32E3-B7EF-4648-9B29-21B7DD4199C8 - fd2df3078a60d10b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FoodChallenge.NetworkManager.makeRequest&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable, &#x3c4;_0_0: Swift.Encodable&gt;(endpoint: FoodChallenge.NetworkManager.Endpoint, responseType: &#x3c4;_0_0.Type, completion: (Swift.Result&lt;&#x3c4;_0_0, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "FoodChallenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nayra1316/Desktop/Fetch/FoodChallenge/FoodChallenge/Data/Network.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "1308">
+               </Location>
+               <Location
+                  uuid = "EBEE32E3-B7EF-4648-9B29-21B7DD4199C8 - 6848dc3b27a749df"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in FoodChallenge.NetworkManager.makeRequest&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable, &#x3c4;_0_0: Swift.Encodable&gt;(endpoint: FoodChallenge.NetworkManager.Endpoint, responseType: &#x3c4;_0_0.Type, completion: (Swift.Result&lt;&#x3c4;_0_0, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "FoodChallenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nayra1316/Desktop/Fetch/FoodChallenge/FoodChallenge/Data/Network.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "688">
+               </Location>
+               <Location
+                  uuid = "EBEE32E3-B7EF-4648-9B29-21B7DD4199C8 - 6848dc3b27a749df"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in FoodChallenge.NetworkManager.makeRequest&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable, &#x3c4;_0_0: Swift.Encodable&gt;(endpoint: FoodChallenge.NetworkManager.Endpoint, responseType: &#x3c4;_0_0.Type, completion: (Swift.Result&lt;&#x3c4;_0_0, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "FoodChallenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nayra1316/Desktop/Fetch/FoodChallenge/FoodChallenge/Data/Network.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "876">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2BA9109A-C146-47F5-90CC-760309A6558A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Data/Network.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "makeRequest(endpoint:responseType:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
