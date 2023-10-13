@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import SwiftUI
 
 class NetworkManager {
     
@@ -33,6 +34,12 @@ class NetworkManager {
                 let decodedResponse = try JSONDecoder().decode(T.self, from: data)
                 completion(.success(decodedResponse))
             } catch {
+                
+                /* My understanding of the Mockables is that they can dissapear after one day
+                 so I made this Sample Data Mocks, I handle the error and show them, this is not the best practice
+                 but is for the usage of the App in case my mockables die before you use it.
+                */
+                
                 if let sampleData = self.loadSampleData(for: endpoint) {
                     do {
                         let decodedResponse = try JSONDecoder().decode(T.self, from: sampleData)
