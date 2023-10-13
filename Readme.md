@@ -19,6 +19,7 @@ http://demo5047648.mockable.io/GetFoods
       "ingredients": ["Dough", "Tomato Sauce", "Cheese", "Pepperoni"],
       "urlImage": "https://cdn-icons-png.flaticon.com/128/3578/3578614.png"
     }
+  ]
 }
 ```
 ## Get Recipes
